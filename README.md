@@ -58,7 +58,7 @@ Add this to your `mcp.json` in Cursor:
 ```json
 {
 	"mcpServers": {
-		"demo": {
+		"reed-jobs-mcp": {
 			"command": "node",
 			"args": ["path/to/your/dist/index.js"],
 			"cwd": "path/to/your/project"
