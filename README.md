@@ -1,4 +1,5 @@
 # Reed Jobs MCP Server
+[![smithery badge](https://smithery.ai/badge/@kld3v/reed_jobs_mcp)](https://smithery.ai/server/@kld3v/reed_jobs_mcp)
 
 A Model Context Protocol (MCP) server that integrates with the Reed Jobs API to search and retrieve job listings. Built with TypeScript and designed to work seamlessly with Cursor IDE.
 
@@ -19,6 +20,16 @@ A Model Context Protocol (MCP) server that integrates with the Reed Jobs API to 
 - A Reed API key (get one from [Reed Developer Portal](https://www.reed.co.uk/developers))
 
 ### Installation
+
+#### Installing via Smithery
+
+To install Reed Jobs for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kld3v/reed_jobs_mcp):
+
+```bash
+npx -y @smithery/cli install @kld3v/reed_jobs_mcp --client claude
+```
+
+#### Manual Installation
 
 1. Clone the repository:
 
