@@ -1,0 +1,19 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'node', args: ['dist/index.js'], env: { REED_API_KEY: config.reedApiKey } })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - reedApiKey
+    properties:
+      reedApiKey:
+        type: string
+        description: Your Reed API key
+  exampleConfig:
+    reedApiKey: your_reed_api_key_here
