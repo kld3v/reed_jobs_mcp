@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kld3v-reed-jobs-mcp-badge.png)](https://mseep.ai/app/kld3v-reed-jobs-mcp)
+
 # Reed Jobs MCP Server
 [![smithery badge](https://smithery.ai/badge/@kld3v/reed_jobs_mcp)](https://smithery.ai/server/@kld3v/reed_jobs_mcp)
 
